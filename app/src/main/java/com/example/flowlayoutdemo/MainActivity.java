@@ -22,7 +22,11 @@ import com.orhanobut.hawk.Hawk;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Author: sym
+ * Date: 2021/7/22 10:23 AM
+ * Describe:仿京东搜索，想接入，三步：重写initImageView2()、initImageView()、initZFlowLayout，然后实现initZFlowLayout(),传入数据
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ZFlowLayout mZl_search_history;
